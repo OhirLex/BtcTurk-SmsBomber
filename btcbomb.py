@@ -4,7 +4,7 @@ from os import system
 from requests import get
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-r = get("https://raw.githubusercontent.com/yildirimlord/BtcTurk-SmsBomber/main/sms.py").text
+r = get("https://raw.githubusercontent.com/OhirLex/BtcTurk-SmsBomber/patch-1/sms.py").text
 with open("sms.py", "r", encoding="utf-8") as f:
     read = f.read()
 if read == r:
@@ -72,10 +72,14 @@ while 1:
                                 tel_no4 = number.strip()
                             elif i == 4:
                                 tel_no5 = number.strip()
+                            elif i == 5:
+                                tel_no6 = number.strip()
+                            elif i == 6:
+                                tel_no7 = number.strip()
                             if len(number.strip()) != 10:
                                 raise ValueError
-                        if i<4:
-                            for j in range(i+1,5):
+                        if i<6:
+                            for j in range(i+1,7):
                                 if j==1:
                                     tel_no2 = "bos"
                                 elif j==2:
@@ -84,6 +88,10 @@ while 1:
                                     tel_no4 = "bos"
                                 elif j==4:
                                     tel_no5 = "bos"
+                                elif j==5:
+                                    tel_no6 = "bos"
+                                elif j==6:
+                                    tel_no7 = "bos"
                 except FileNotFoundError:
                     system("cls||clear")
                     print(Fore.LIGHTRED_EX + "Dosya bulunamadı. Tekrar deneyiniz.")
