@@ -18,6 +18,72 @@ class SendSms():
         self.phone5 = str(phone5)
         self.phone6 = str(phone6)
         self.phone7 = str(phone7)
+        self.phone8 = str(phone8)
+        self.phone9 = str(phone9)
+        self.phone10 = str(phone10)
+        self.phone11 = str(phone11)
+        self.phone12 = str(phone12)
+        self.phone13 = str(phone13)
+        self.phone14 = str(phone14)
+        self.phone15 = str(phone15)
+        self.phone16 = str(phone16)
+        self.phone17 = str(phone17)
+        self.phone18 = str(phone18)
+        self.phone19 = str(phone19)
+        self.phone20 = str(phone20)
+        self.phone21 = str(phone21)
+        self.phone22 = str(phone22)
+        self.phone23 = str(phone23)
+        self.phone24 = str(phone24)
+        self.phone25 = str(phone25)
+        self.phone26 = str(phone26)
+        self.phone27 = str(phone27)
+        self.phone28 = str(phone28)
+        self.phone29 = str(phone29)
+        self.phone30 = str(phone30)
+        self.phone31 = str(phone31)
+        self.phone32 = str(phone32)
+        self.phone33 = str(phone33)
+        self.phone34 = str(phone34)
+        self.phone35 = str(phone35)
+        self.phone36 = str(phone36)
+        self.phone37 = str(phone37)
+        self.phone38 = str(phone38)
+        self.phone39 = str(phone39)
+        self.phone40 = str(phone40)
+        self.phone41 = str(phone41)
+        self.phone42 = str(phone42)
+        self.phone43 = str(phone43)
+        self.phone44 = str(phone44)
+        self.phone45 = str(phone45)
+        self.phone46 = str(phone46)
+        self.phone47 = str(phone47)
+        self.phone48 = str(phone48)
+        self.phone49 = str(phone49)
+        self.phone50 = str(phone50)
+        self.phone51 = str(phone51)
+        self.phone52 = str(phone52)
+        self.phone53 = str(phone53)
+        self.phone54 = str(phone54)
+        self.phone55 = str(phone55)
+        self.phone56 = str(phone56)
+        self.phone57 = str(phone57)
+        self.phone58 = str(phone58)
+        self.phone59 = str(phon59)
+        self.phone60 = str(phone60)
+        self.phone61 = str(phone61)
+        self.phone62 = str(phone62)
+        self.phone63 = str(phone63)
+        self.phone64 = str(phone64)
+        self.phone65 = str(phone65)
+        self.phone66 = str(phone66)
+        self.phone67 = str(phone67)
+        self.phone68 = str(phone68)
+        self.phone69 = str(phone69)
+        self.phone70 = str(phone70)
+        
+        
+        
         if len(mail) != 0:
             self.mail = mail
         else:
@@ -29,7 +95,7 @@ class SendSms():
 
     # dsmartgo.com.tr
     def Dsmartgo(self):
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -64,7 +130,7 @@ class SendSms():
 
     # kigili.com
     def Kigili(self): 
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -97,7 +163,7 @@ class SendSms():
 
     #kahvedunyasi.com
     def KahveDunyasi(self):    
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -124,7 +190,7 @@ class SendSms():
 
     #naosstars.com
     def NaosStars(self):
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -159,7 +225,7 @@ class SendSms():
         
     #wmf.com.tr
     def Wmf(self):        
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -193,7 +259,7 @@ class SendSms():
     
     #istegelsin.com
     def IsteGelsin(self):
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -218,7 +284,7 @@ class SendSms():
     
     #bim
     def Bim(self):         
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -243,7 +309,7 @@ class SendSms():
     #ceptesok.com
     def Sok(self):
 
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -267,7 +333,7 @@ class SendSms():
     
     #tiklagelsin.com
     def Tiklagelsin(self):
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -300,7 +366,7 @@ class SendSms():
             
     #a101.com.tr
     def A101(self):
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -325,7 +391,7 @@ class SendSms():
             
     #englishhome.com
     def Englishhome(self):
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -350,7 +416,7 @@ class SendSms():
             
     #sakasu.com.tr
     def Sakasu(self):
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -375,7 +441,7 @@ class SendSms():
     
     #rentiva.com
     def Rentiva(self): 
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -402,7 +468,7 @@ class SendSms():
     
     #bineq.tech
     def Bineq(self):
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -429,7 +495,7 @@ class SendSms():
     #superpedestrian.com
     def Link(self):
 
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -456,7 +522,7 @@ class SendSms():
     #loncamarket.com
     def Lonca(self):
 
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -482,7 +548,7 @@ class SendSms():
     
     #dgnonline.com
     def Dgn(self):          
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -510,7 +576,7 @@ class SendSms():
     #yaanimail.com
     def Yaani(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -538,7 +604,7 @@ class SendSms():
     #defacto.com.tr
     def Defacto(self):
            
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -565,7 +631,7 @@ class SendSms():
     
     #mopas.com.tr
     def Mopas(self):          
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -589,7 +655,7 @@ class SendSms():
     
     #icq.net
     def Icq(self):
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -617,7 +683,7 @@ class SendSms():
     #boyner.com
     def Boyner(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -645,7 +711,7 @@ class SendSms():
     #watsons.com.tr
     def Watsons(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -672,7 +738,7 @@ class SendSms():
     
     #buyursungelsin.com
     def Buyur(self):
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -701,7 +767,7 @@ class SendSms():
     def Osmanlideal(self):
 
 
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -725,7 +791,7 @@ class SendSms():
     
     #pinarsu.com.tr
     def Pinar(self):         
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -753,7 +819,7 @@ class SendSms():
     #suiste.com
     def Suiste(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -781,7 +847,7 @@ class SendSms():
     #hayatsu.com.tr
     def Hayat(self):
 
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -808,7 +874,7 @@ class SendSms():
     #pisir.com
     def Pisir(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -833,7 +899,7 @@ class SendSms():
     #KimGbIster
     def KimGb(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -858,7 +924,7 @@ class SendSms():
     #ikinciyeni.com
     def IkinciYeni(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -885,7 +951,7 @@ class SendSms():
     #terrapizza.com.tr
     def Terra(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -914,7 +980,7 @@ class SendSms():
     #ipragaz.com.tr
     def IpraGaz(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -941,7 +1007,7 @@ class SendSms():
     #mogazmobilapinew.aygaz.com.tr
     def Mogaz(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -967,7 +1033,7 @@ class SendSms():
     #ipragaz.com.tr
     def GoMobile(self):
     
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -992,7 +1058,7 @@ class SendSms():
     #petrolofisi.com.tr
     def PetrolOfisi(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -1020,7 +1086,7 @@ class SendSms():
     #totalistasyonlari.com.tr
     def Total(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -1044,7 +1110,7 @@ class SendSms():
     #opet.com.tr
     def Opet(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -1071,7 +1137,7 @@ class SendSms():
     #dolap.com
     def Dolap(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -1099,7 +1165,7 @@ class SendSms():
     #heymobility.tech
     def Hey(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -1125,7 +1191,7 @@ class SendSms():
     #tazi.tech
     def Tazi(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -1153,7 +1219,7 @@ class SendSms():
     #isbike.istanbul
     def Isbike(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -1181,7 +1247,7 @@ class SendSms():
     #n11.com
     def N11(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -1209,7 +1275,7 @@ class SendSms():
     #joker.com.tr
     def Joker(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -1237,7 +1303,7 @@ class SendSms():
     #e-bebek.com
     def Ebebek(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -1266,7 +1332,7 @@ class SendSms():
     #sakasu.com.tr
     def Saka(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -1293,7 +1359,7 @@ class SendSms():
     #gofody.com
     def Gofody(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -1320,7 +1386,7 @@ class SendSms():
     #madamecoco.com
     def Madame(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -1348,7 +1414,7 @@ class SendSms():
     #balikesiruludag.com.tr
     def Buludag(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -1373,7 +1439,7 @@ class SendSms():
     #evidea.com
     def Evidea(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -1401,7 +1467,7 @@ class SendSms():
     #koctas.com.tr
     def Koctas(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
@@ -1428,7 +1494,7 @@ class SendSms():
     #gratis.com
     def Gratis(self):
             
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7, self.phone8, self.phone9, self.phone10, self.phone11, self.phone12, self.phone13, self.phone14, self.phone15, self.phone16, self.phone17, self.phone18, self.phone19, self.phone20, self.phone21, self.phone22, self.phone23, self.phone24, self.phone25, self.phone26, self.phone27, self.phone28, self.phone29, self.phone30, self.phone31, self.phone32, self.phone33, self.phone34, self.phone35, self.phone36, self.phone37, self.phone38, self.phone39, self.phone40, self.phone41, self.phone42, self.phone43, self.phone44, self.phone45, self.phone46, self.phone47, self.phone48, self.phone49, self.phone50, self.phone51, self.phone52, self.phone53, self.phone54, self.phone55, self.phone56, self.phone57, self.phone58, self.phone59, self.phone60, self.phone61, self.phone62, self.phone63, self.phone64, self.phone65, self.phone66, self.phone67, self.phone68, self.phone69, self.phone70]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
