@@ -10,7 +10,7 @@ class SendSms():
     toplam_sms = 1
     
    
-    def __init__(self, phone, phone2, phone3, phone4, phone5, phone6, phone7, mail):
+    def __init__(self, phone, phone2, phone3, phone4, phone5, phone6, phone7, phone8, phone9, phone10, phone11, phone12, phone13, mail):
         self.phone = str(phone)
         self.phone2 = str(phone2)
         self.phone3 = str(phone3)
