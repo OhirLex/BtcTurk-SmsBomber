@@ -69,7 +69,7 @@ class SendSms():
         self.phone56 = str(phone56)
         self.phone57 = str(phone57)
         self.phone58 = str(phone58)
-        self.phone59 = str(phon59)
+        self.phone59 = str(phone59)
         self.phone60 = str(phone60)
         self.phone61 = str(phone61)
         self.phone62 = str(phone62)
