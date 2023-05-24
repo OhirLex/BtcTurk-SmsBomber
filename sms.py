@@ -10,12 +10,14 @@ class SendSms():
     toplam_sms = 1
     
    
-    def __init__(self, phone, phone2, phone3, phone4, phone5, mail):
+    def __init__(self, phone, phone2, phone3, phone4, phone5, phone6, phone7, mail):
         self.phone = str(phone)
         self.phone2 = str(phone2)
         self.phone3 = str(phone3)
         self.phone4 = str(phone4)
         self.phone5 = str(phone5)
+        self.phone6 = str(phone6)
+        self.phone7 = str(phone7)
         if len(mail) != 0:
             self.mail = mail
         else:
@@ -298,7 +300,7 @@ class SendSms():
             
     #a101.com.tr
     def A101(self):
-        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+        liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5, self.phone6, self.phone7]
         bos_olmayan = len([x for x in liste if x != "bos"])
         uygulanan_nolar = 0
         for numara in liste:
